@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Weather App",
+    "slug": "weather-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons8.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons8.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.bornmaja.weatherapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4d872284-67f2-4c3f-92ca-6d30a5324333"
+      }
+    }
+  }
+}
